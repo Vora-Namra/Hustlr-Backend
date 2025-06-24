@@ -17,7 +17,6 @@ import com.jobportal.jwt.AuthenticationResponse;
 import com.jobportal.jwt.JwtHelper;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
 @RequestMapping("/auth")
 public class AuthApi {
 
